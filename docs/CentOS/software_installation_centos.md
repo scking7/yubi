@@ -139,14 +139,14 @@ Once launched, disable any auto-start program entries which contain or reference
 
 
 
-11\. Configure `/.bashrc` to be sourced on both login and non-login sessions by copying & pasting this command into a terminal window.
+11\. Configure `~/.bashrc` to be sourced on both login and non-login sessions by copying & pasting this command into a terminal window.
 
 
     $ echo -e "\n\n[ -f ~/.bashrc ] && . ~/.bashrc\n\n" >> ~/.bash_profile
 
 
 
-12\. Configure `/.bashrc` by copying & pasting the following into a terminal window (not including the `$` command-prompt).
+12\. Configure `~/.bashrc` by copying & pasting the following into a terminal window (not including the `$` command-prompt).
 
 
 ```bash
@@ -252,7 +252,7 @@ $
 
 
 
-16\. Source changes made to `/.bashrc` by executing this command in a terminal window.
+16\. Source changes made to `~/.bashrc` by executing this command in a terminal window.
 
     $ . ~/.bashrc
 

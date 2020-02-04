@@ -18,7 +18,7 @@ $ brew cask install gpg-suite
 
 
 
-2\. Modify `.bashrc` / `.zshrc`
+2\. Modify `~/.bashrc` or `~/.zshrc`, depending on the shell you use.
 
 
 ```
@@ -137,7 +137,7 @@ EOF
 
 
 
-7\. Source changes made to `/.bashrc`
+7\. Source changes made to `~/.bashrc`
 
     $ . ~/.bashrc
 

@@ -88,14 +88,14 @@ Disable any programs which reference similar to the following, as demonstrated i
 
 
 
-6\. Configure `/.bashrc` to be sourced on both login and non-login sessions by copying & pasting this command into a terminal window.
+6\. Configure `~/.bashrc` to be sourced on both login and non-login sessions by copying & pasting this command into a terminal window.
 
 
     $ echo -e "\n\n[ -f ~/.bashrc ] && . ~/.bashrc\n\n" >> ~/.bash_profile
 
 
 
-7\. Configure `/.bashrc` by copying & pasting the following into a terminal window (not including the `$` command-prompt).
+7\. Configure `~/.bashrc` by copying & pasting the following into a terminal window (not including the `$` command-prompt).
 
 
 ```bash
@@ -197,7 +197,7 @@ EOF
 
 
 
-11\. Source changes made to `/.bashrc` by executing this command in a terminal window.
+11\. Source changes made to `~/.bashrc` by executing this command in a terminal window.
 
     $ . ~/.bashrc
 
