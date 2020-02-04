@@ -33,7 +33,7 @@ $ chmod 0750 *.AppImage
 ## Environment Configuration
 
 
-4\. In all Gnome-Based desktop environments (Gnome 2, Gnome 3, MATE, Cinnamon, XFCE, etc.), disable Gnome-Shell's `ssh-agent` by copying & pasting the following into a terminal window (not including the `$` command-prompts). This is a kludgey process due multiple undocumented changes by Gnome developers -- we're implementing 3 different methods of attempting to get Gnome to obey our attempt to prevent it from hijacking the ssh agent.
+4\. In all Gnome-Based desktop environments (Gnome 2, Gnome 3, MATE, Cinnamon, XFCE, etc.), disable Gnome-Shell's `ssh-agent` by copying & pasting the following into a terminal window (not including the `$` command-prompts). This is a kludgey process due to multiple undocumented changes by Gnome developers -- we're implementing three different methods of attempting to get Gnome to obey our commands and prevent it from hijacking the ssh agent. All for "usability" purposes in their minds.
 
 
 
